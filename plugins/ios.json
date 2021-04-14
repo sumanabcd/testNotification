@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "com.example.testnotification"
+    },
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "com.example.testnotification"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.testnotification"
+    }
+  },
+  "dependent_plugins": {}
+}

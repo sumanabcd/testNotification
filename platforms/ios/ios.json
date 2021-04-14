@@ -1,0 +1,48 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": []
+        }
+      },
+      "*/Entitlements-Debug.plist": {
+        "parents": {
+          "aps-environment": []
+        }
+      },
+      "*/Entitlements-Release.plist": {
+        "parents": {
+          "aps-environment": []
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "UIBackgroundModes": []
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-androidx": {
+      "PACKAGE_NAME": "com.example.testnotification"
+    },
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "com.example.testnotification"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.testnotification"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [],
+  "plugin_metadata": {
+    "cordova-plugin-androidx": "3.0.0",
+    "cordova-plugin-androidx-adapter": "1.1.3",
+    "cordova-plugin-whitelist": "1.3.4"
+  }
+}
