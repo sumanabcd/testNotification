@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
+		1472B8436E1F4BA7914D3BEF /* AppDelegate+FirebasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD4D999D2DD4A29B474ABB9 /* AppDelegate+FirebasePlugin.m */; };
+		1BD2B50CCBA876C6C4F012B4 /* Pods_testNotification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D725886922E45232349641 /* Pods_testNotification.framework */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; settings = {ATTRIBUTES = (Required, ); }; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		4D28157986504FF59D2A6F35 /* FirebasePluginMessageReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 098FFCB4F6D14148A5E3D6B9 /* FirebasePluginMessageReceiver.m */; };
+		5BB652AE17A64598A91CB713 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D444446AD6BA4303B68B1255 /* AuthenticationServices.framework */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
-		A59681CBC1525E241DAD3F5D /* libPods-testNotification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC198F5AD8A2810045F3076 /* libPods-testNotification.a */; };
+		7DCD92B226884CFEBA9AB568 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B8201813E4E45E0A8D8EC6F /* GoogleService-Info.plist */; };
+		EEAA2C7037954DD3B3796448 /* FirebasePluginMessageReceiverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D81D9859A3BD4B3684B7B0B2 /* FirebasePluginMessageReceiverManager.m */; };
+		FD15357507604C5EBA77B313 /* FirebasePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB9F56BD8524098A2AAA6DC /* FirebasePlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +49,7 @@
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = testNotification/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		0EC198F5AD8A2810045F3076 /* libPods-testNotification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testNotification.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		098FFCB4F6D14148A5E3D6B9 /* FirebasePluginMessageReceiver.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FirebasePluginMessageReceiver.m; path = "cordova-plugin-firebasex/FirebasePluginMessageReceiver.m"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* testNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,14 +63,24 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* testNotification-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "testNotification-Prefix.pch"; sourceTree = "<group>"; };
+		39F79408FCBF44E48852BE8B /* FirebasePluginMessageReceiver.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FirebasePluginMessageReceiver.h; path = "cordova-plugin-firebasex/FirebasePluginMessageReceiver.h"; sourceTree = "<group>"; };
 		47438896EE0C90A948C0D721 /* Pods-testNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testNotification.release.xcconfig"; path = "Target Support Files/Pods-testNotification/Pods-testNotification.release.xcconfig"; sourceTree = "<group>"; };
+		5CD4D999D2DD4A29B474ABB9 /* AppDelegate+FirebasePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+FirebasePlugin.m"; path = "cordova-plugin-firebasex/AppDelegate+FirebasePlugin.m"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = testNotification/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		8B8201813E4E45E0A8D8EC6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* testNotification-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "testNotification-Info.plist"; path = "testNotification/testNotification-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		8D6045B2D2EE45849F420A57 /* FirebasePluginMessageReceiverManager.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FirebasePluginMessageReceiverManager.h; path = "cordova-plugin-firebasex/FirebasePluginMessageReceiverManager.h"; sourceTree = "<group>"; };
+		9930C6F058D14B8EAF978AF2 /* FirebasePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = FirebasePlugin.h; path = "cordova-plugin-firebasex/FirebasePlugin.h"; sourceTree = "<group>"; };
 		BBFC6C34508902822C1E2B16 /* Pods-testNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testNotification.debug.xcconfig"; path = "Target Support Files/Pods-testNotification/Pods-testNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		D444446AD6BA4303B68B1255 /* AuthenticationServices.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		D81D9859A3BD4B3684B7B0B2 /* FirebasePluginMessageReceiverManager.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FirebasePluginMessageReceiverManager.m; path = "cordova-plugin-firebasex/FirebasePluginMessageReceiverManager.m"; sourceTree = "<group>"; };
+		DAF59AF6F7FC4C23A060642C /* AppDelegate+FirebasePlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+FirebasePlugin.h"; path = "cordova-plugin-firebasex/AppDelegate+FirebasePlugin.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F3D725886922E45232349641 /* Pods_testNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = testNotification/config.xml; sourceTree = "<group>"; };
+		FBB9F56BD8524098A2AAA6DC /* FirebasePlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = FirebasePlugin.m; path = "cordova-plugin-firebasex/FirebasePlugin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +89,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				A59681CBC1525E241DAD3F5D /* libPods-testNotification.a in Frameworks */,
+				5BB652AE17A64598A91CB713 /* AuthenticationServices.framework in Frameworks */,
+				1BD2B50CCBA876C6C4F012B4 /* Pods_testNotification.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +154,7 @@
 				3047A50E1AB8057F00498E2A /* config */,
 				8D1107310486CEB800E47090 /* testNotification-Info.plist */,
 				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				8B8201813E4E45E0A8D8EC6F /* GoogleService-Info.plist */,
 			);
 			name = Resources;
 			path = testNotification/Resources;
@@ -145,7 +163,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EC198F5AD8A2810045F3076 /* libPods-testNotification.a */,
+				D444446AD6BA4303B68B1255 /* AuthenticationServices.framework */,
+				F3D725886922E45232349641 /* Pods_testNotification.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,6 +191,14 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				5CD4D999D2DD4A29B474ABB9 /* AppDelegate+FirebasePlugin.m */,
+				FBB9F56BD8524098A2AAA6DC /* FirebasePlugin.m */,
+				098FFCB4F6D14148A5E3D6B9 /* FirebasePluginMessageReceiver.m */,
+				D81D9859A3BD4B3684B7B0B2 /* FirebasePluginMessageReceiverManager.m */,
+				DAF59AF6F7FC4C23A060642C /* AppDelegate+FirebasePlugin.h */,
+				9930C6F058D14B8EAF978AF2 /* FirebasePlugin.h */,
+				39F79408FCBF44E48852BE8B /* FirebasePluginMessageReceiver.h */,
+				8D6045B2D2EE45849F420A57 /* FirebasePluginMessageReceiverManager.h */,
 			);
 			name = Plugins;
 			path = testNotification/Plugins;
@@ -208,6 +235,9 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				521D04D03BDCB9B56AE3D99D /* [CP] Embed Pods Frameworks */,
+				0BB5903F64E92B915645B979 /* [CP] Copy Pods Resources */,
+				7D4C984546414DB0A3CE4D23 /* "Crashlytics" */,
 			);
 			buildRules = (
 			);
@@ -281,12 +311,30 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				7DCD92B226884CFEBA9AB568 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0BB5903F64E92B915645B979 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testNotification/Pods-testNotification-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testNotification/Pods-testNotification-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testNotification/Pods-testNotification-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1A3F7139FA9AC34565432381 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,6 +372,39 @@
 			shellScript = "\"$SRCROOT/testNotification/Scripts/copy-www-build-step.sh\"";
 			showEnvVarsInLog = 0;
 		};
+		521D04D03BDCB9B56AE3D99D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testNotification/Pods-testNotification-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testNotification/Pods-testNotification-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testNotification/Pods-testNotification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4C984546414DB0A3CE4D23 /* "Crashlytics" */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Crashlytics";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -334,6 +415,10 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				1472B8436E1F4BA7914D3BEF /* AppDelegate+FirebasePlugin.m in Sources */,
+				FD15357507604C5EBA77B313 /* FirebasePlugin.m in Sources */,
+				4D28157986504FF59D2A6F35 /* FirebasePluginMessageReceiver.m in Sources */,
+				EEAA2C7037954DD3B3796448 /* FirebasePluginMessageReceiverManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

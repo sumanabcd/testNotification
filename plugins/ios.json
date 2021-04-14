@@ -15,6 +15,12 @@
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.example.testnotification"
+    },
+    "cordova-plugin-firebasex": {
+      "FIREBASE_ANALYTICS_COLLECTION_ENABLED": "true",
+      "FIREBASE_PERFORMANCE_COLLECTION_ENABLED": "true",
+      "FIREBASE_CRASHLYTICS_COLLECTION_ENABLED": "true",
+      "PACKAGE_NAME": "com.example.testnotification"
     }
   },
   "dependent_plugins": {}

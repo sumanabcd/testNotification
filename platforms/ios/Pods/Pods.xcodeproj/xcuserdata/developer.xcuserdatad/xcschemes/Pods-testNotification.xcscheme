@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C99FB051D3A9405352537A0612125294"
-               BuildableName = "libPods-testNotification.a"
+               BuildableName = "Pods-testNotification.framework"
                BlueprintName = "Pods-testNotification"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -23,4 +23,7 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <plugin name="cordova-plugin-firebasex" spec="latest">
+        <variable name="ANDROID_FIREBASE_ANALYTICS_VERSION" value="17.0.0" />
+    </plugin>
 </widget>
