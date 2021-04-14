@@ -1,0 +1,77 @@
+{
+    "declarations": {
+        "use_frameworks!": {
+            "declaration": "use_frameworks!",
+            "count": 1
+        }
+    },
+    "sources": {
+        "https://cdn.cocoapods.org/": {
+            "source": "https://cdn.cocoapods.org/",
+            "count": 1
+        }
+    },
+    "libraries": {
+        "Firebase/Core": {
+            "name": "Firebase/Core",
+            "spec": "7.8.1",
+            "count": 1
+        },
+        "Firebase/Auth": {
+            "name": "Firebase/Auth",
+            "spec": "7.8.1",
+            "count": 1
+        },
+        "Firebase/Messaging": {
+            "name": "Firebase/Messaging",
+            "spec": "7.8.1",
+            "count": 1
+        },
+        "Firebase/Performance": {
+            "name": "Firebase/Performance",
+            "spec": "7.8.1",
+            "count": 1
+        },
+        "Firebase/RemoteConfig": {
+            "name": "Firebase/RemoteConfig",
+            "spec": "7.8.1",
+            "count": 1
+        },
+        "Firebase/InAppMessaging": {
+            "name": "Firebase/InAppMessaging",
+            "spec": "7.8.1",
+            "count": 1
+        },
+        "FirebaseFirestore": {
+            "name": "FirebaseFirestore",
+            "git": "https://github.com/invertase/firestore-ios-sdk-frameworks.git",
+            "tag": "7.8.1",
+            "count": 1
+        },
+        "Firebase/Crashlytics": {
+            "name": "Firebase/Crashlytics",
+            "spec": "7.8.1",
+            "count": 1
+        },
+        "Firebase/Functions": {
+            "name": "Firebase/Functions",
+            "spec": "7.8.1",
+            "count": 1
+        },
+        "Firebase/Installations": {
+            "name": "Firebase/Installations",
+            "spec": "7.8.1",
+            "count": 1
+        },
+        "GoogleSignIn": {
+            "name": "GoogleSignIn",
+            "spec": "5.0.2",
+            "count": 1
+        },
+        "GoogleTagManager": {
+            "name": "GoogleTagManager",
+            "spec": "7.2.0",
+            "count": 1
+        }
+    }
+}
